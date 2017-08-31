@@ -14,7 +14,7 @@ public class sample {
 		ChromeDriver driver=new ChromeDriver();
 		//driver.get("http://www.facebook.com");
 		driver.get("https://eenadupellipandiri.net/register");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
 		WebElement var = driver.findElement(By.id("name"));
